@@ -10,10 +10,10 @@ import { StatusBar } from "expo-status-bar";
 
 import "../../global.css";
 import { Stack } from "expo-router";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { useColorScheme } from "../../hooks/useColorScheme";
 
 // Keep the splash screen visible while we fetch resources
-SplashScreen.preventAutoHideAsync();
+// SplashScreen.preventAutoHideAsync();
 
 const RootLayout = () => {
   const colorScheme = useColorScheme();
